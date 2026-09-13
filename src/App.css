@@ -1,0 +1,57 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.editor-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.blockly-workspace {
+  width: 65%;
+  height: 600px;
+  border: 2px solid #ddd;
+}
+
+.json-panel {
+  width: 35%;
+  height: 600px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 15px;
+  background: #f7f7f7;
+}
+
+.json-panel h2 {
+  margin-top: 0;
+}
+
+.json-panel pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.json-panel button {
+  padding: 10px 16px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.json-panel button:hover {
+  opacity: 0.85;
+}
